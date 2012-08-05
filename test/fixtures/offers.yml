@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  merchant_id: 1
+  start_date: 2012-08-03
+  finish_date: 2012-08-03
+  title: MyString
+  description: MyText
+  price: 1.5
+
+two:
+  merchant_id: 1
+  start_date: 2012-08-03
+  finish_date: 2012-08-03
+  title: MyString
+  description: MyText
+  price: 1.5

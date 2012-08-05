@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @merchant.name %>
+</p>
+
+<p>
+  <b>Tin:</b>
+  <%= @merchant.tin %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @merchant.phone %>
+</p>
+
+<p>
+  <b>Web:</b>
+  <%= @merchant.web %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @merchant.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_merchant_path(@merchant) %> |
+<%= link_to 'Back', merchants_path %>
